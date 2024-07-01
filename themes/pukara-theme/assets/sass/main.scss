@@ -105,7 +105,7 @@ b, strong {
 .elementor div.slide-2 {
 	background-color: var(--primary-color);
 	padding: 0;
-	height:551px;
+	height: 551px;
  }
  .slide-2 .e-con-inner .slide-2-column-1 {
 	padding: 0;
@@ -119,6 +119,7 @@ b, strong {
  .elementor-element div.slide-2-title {
 	color: white;
 	font-size: 1.6rem;
+	letter-spacing: .2rem;
 	padding-top: 8vh;
  }
  span.brent-name {
@@ -126,15 +127,21 @@ b, strong {
  }
  .elementor-element div.slide-2-subtitle {
 	color: white;
-	font-size: 1rem;
+	font-size: 1.3rem;
+	font-style: italic;
+	letter-spacing: .1rem;
+	padding-top: 1vh;
  }
  .elementor-element div.slide-2-text {
 	color: white;
-	font-size: 1rem;
+	font-size: 1.5rem;
+	width:72%;
+	line-height: 1.9rem;
+	padding-top: 1.5vh;
  }
  .slide-2-image div img {
 	position: relative;
-	bottom:31vh;
+	bottom:30.4vh;
 	height:125vh;
 	width:auto;
  }
