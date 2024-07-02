@@ -7,8 +7,8 @@ function theme_setup()
 
     register_nav_menus(
         array(
-            'primary' => esc_html__( 'Primary menu', 'puk-menu' ),
-            'footer'  => __( 'Secondary menu', 'puk-menu' ),
+            'primary' => esc_html__('Primary menu', 'puk-menu'),
+            'footer' => __('Secondary menu', 'puk-menu'),
         )
     );
 
@@ -18,7 +18,8 @@ function theme_setup()
         'comment-list',
         'gallery',
         'caption',
-    ));
+    )
+    );
 }
 
 
@@ -30,3 +31,15 @@ function theme_scripts()
 add_action('after_setup_theme', 'theme_setup');
 add_action('wp_enqueue_scripts', 'theme_scripts');
 
+function your_theme_setup()
+{
+    add_theme_support('custom-logo');
+}
+add_action('after_setup_theme', 'your_theme_setup');
+
+function your_theme_scripts()
+{
+    // Enfileirar o JavaScript para o menu toggle
+    wp_enqueue_script('menu-toggle', get_template_directory_uri() . '/js/menu-toggle.js', array('jquery'), null, true);
+}
+add_action('wp_enqueue_scripts', 'your_theme_scripts');
