@@ -9,9 +9,6 @@ html {
 	margin: 0;
 	padding: 0;
 }
-*, *::before, *::after {
-	box-sizing: inherit;
-}
 * {
     margin: 0;
     padding: 0;
@@ -73,9 +70,15 @@ b, strong {
    padding: 0 !important;
    margin-left: .2vw;
 }
+.slide-1-column-1 {
+	width: 65% !important;
+}
+.slide-1 .e-con-inner .slide-1-column-2 {
+	align-items: flex-start;
+}
 .slide-1-image .elementor-widget-container img {
-   width:33vw;
-   height: auto;
+   height: 113vh;
+   width: auto;
 }
 .slide-1-title h2 {
    font-weight: 500 !important;
@@ -98,3 +101,47 @@ b, strong {
    font-weight: 900;
    font-style: italic;
 }
+/*Homepage - Section 2 (Book)*/
+.elementor div.slide-2 {
+	background-color: var(--primary-color);
+	padding: 0;
+	height: 551px;
+ }
+ .slide-2 .e-con-inner .slide-2-column-1 {
+	padding: 0;
+	width: 47% !important;
+	align-items: flex-end;
+ }
+ .slide-2 .e-con-inner .slide-2-column-2 {
+	padding: 0;
+	align-items: flex-start;
+ }
+ .elementor-element div.slide-2-title {
+	color: white;
+	font-size: 1.6rem;
+	letter-spacing: .2rem;
+	padding-top: 8vh;
+ }
+ span.brent-name {
+	color: var(--orange-color);
+ }
+ .elementor-element div.slide-2-subtitle {
+	color: white;
+	font-size: 1.3rem;
+	font-style: italic;
+	letter-spacing: .1rem;
+	padding-top: 1vh;
+ }
+ .elementor-element div.slide-2-text {
+	color: white;
+	font-size: 1.5rem;
+	width:72%;
+	line-height: 1.9rem;
+	padding-top: 1.5vh;
+ }
+ .slide-2-image div img {
+	position: relative;
+	bottom:30.4vh;
+	height:125vh;
+	width:auto;
+ }
