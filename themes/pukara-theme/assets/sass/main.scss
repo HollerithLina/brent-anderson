@@ -184,17 +184,20 @@ b, strong {
    width: auto;
 }
 .slide-1-title h2 {
+	font-family: "Poppins", sans-serif !important;
    font-weight: 500 !important;
    font-size: 4.2rem;
    line-height: 4rem;
    margin-top: 17vh;
 }
 .slide-1-column-1 .elementor-widget-container p {
+	font-family: "Poppins", sans-serif !important;
    font-size: 1.5rem;
    line-height: 1.5rem;
    margin: 0;
 }
 .slide-1-span-1 .elementor-widget-container p {
+	font-family: "Poppins", sans-serif !important;
    color: var(--white);
    font-weight: 400;
    margin-top: 9vh;
@@ -208,7 +211,12 @@ b, strong {
 .elementor div.slide-2 {
 	background-color: var(--primary-color);
 	padding: 0;
-	height: 551px;
+ }
+ .elementor .slide-2 .e-con-inner {
+	font-family: "Poppins", sans-serif !important;
+	display: flex;
+	overflow: hidden;
+	padding: 0;
  }
  .slide-2 .e-con-inner .slide-2-column-1 {
 	padding: 0;
@@ -217,9 +225,11 @@ b, strong {
  }
  .slide-2 .e-con-inner .slide-2-column-2 {
 	padding: 0;
+	flex: 1;
 	align-items: flex-start;
  }
  .elementor-element div.slide-2-title {
+	font-family: "Poppins", sans-serif !important;
 	color: white;
 	font-size: 1.6rem;
 	letter-spacing: .2rem;
@@ -229,6 +239,7 @@ b, strong {
 	color: var(--orange-color);
  }
  .elementor-element div.slide-2-subtitle {
+	font-family: "Poppins", sans-serif !important;
 	color: white;
 	font-size: 1.3rem;
 	font-style: italic;
@@ -236,15 +247,15 @@ b, strong {
 	padding-top: 1vh;
  }
  .elementor-element div.slide-2-text {
+	font-family: "Poppins", sans-serif !important;
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	width:72%;
 	line-height: 1.9rem;
 	padding-top: 1.5vh;
  }
  .slide-2-image div img {
-	position: relative;
-	bottom:30.4vh;
 	height:125vh;
 	width:auto;
+	max-width: 100%;
  }
