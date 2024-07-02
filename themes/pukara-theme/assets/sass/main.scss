@@ -259,3 +259,87 @@ b, strong {
 	width:auto;
 	max-width: 100%;
  }
+
+ /* Footer Styles */
+.site-footer {
+    background-color: #1a2b4c; /* Your footer background color */
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    max-height: 50px;
+}
+
+.footer-subscribe p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.footer-subscribe span {
+    font-weight: bold;
+    color: #f8b400;
+}
+
+.footer-subscribe form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer-subscribe input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 250px;
+}
+
+.footer-subscribe button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #f8b400;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-menu li {
+    display: inline;
+}
+
+.footer-menu a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-contact-button {
+    background-color: #f8b400;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
