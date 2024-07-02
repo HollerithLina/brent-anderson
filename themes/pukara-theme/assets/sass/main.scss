@@ -64,12 +64,10 @@ b, strong {
     background: transparent;
 	height: 89px;
 }
-.site-logo img {
-	width: 40%;
-	height: auto;
-    max-width: 100%;
-	max-height:16vh;
-	padding: 3vh 5vw;
+.site-logo a img {
+	height: 40%;
+	width: auto;
+	margin: 2% 40%;
 }
 .header-navigation-wrapper {
 	display: flex;
