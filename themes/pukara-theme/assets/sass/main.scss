@@ -3,6 +3,7 @@
 	--white: white;
 	--primary-color: #1F2944;
 	--orange-color: #F6A800;
+	--light-blue: #D4E2F6;
 }
 html {
 	box-sizing: border-box;
@@ -259,6 +260,89 @@ b, strong {
 	width:auto;
 	max-width: 100%;
  }
+
+ /*Homepage - Section 3 (Links)*/
+ .section-3 {
+	background-color: var(--light-blue);
+ }
+ .section-3 .e-con-inner {
+	max-width: 100% !important;
+ }
+ .section-3 .e-con-inner .section-3-column-1 {
+	gap: 8% !important;
+	margin-left: 4%;
+	padding: 0;
+	padding-right: 0;
+ }
+ .section-3 .e-con-inner .section-3-column-2 {
+	gap: 8% !important;
+	margin: 0 4% 0 2%;
+	padding: 0;
+ }
+ .section-3-title {
+	font-family: "Poppins", sans-serif !important;
+	font-size: 1.4rem;
+	color: var(--body-color) !important;
+	border-bottom: 2px solid var(--body-color);
+	padding-bottom: 2%;
+	margin-top: 15% !important;
+	letter-spacing: .05rem;
+ }
+ .section-3-title .elementor-widget-container p {
+	margin: 0;
+ }
+ .section-3-link {
+    display: block;
+    text-decoration: none;
+}
+.section-3-link-content {
+	font-family: "Poppins", sans-serif !important;
+	color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+	margin-right: 2%;
+}
+
+.section-3-link-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-3-link-type {
+    font-size: 1.4rem;
+    font-weight: 500;
+	text-transform: uppercase;
+    margin: 0;
+	padding-bottom: 4%;
+}
+
+.section-3-link-title {
+    font-size: 1.9rem;
+	font-weight: 600;
+	line-height: 2rem;
+    margin: 0;
+}
+
+.section-3-link-source {
+    font-size: 1.4rem;
+	font-weight: 500;
+    margin: 0;
+	padding-top: 1%;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: var(--primary-color);
+}
+
+/* Add any additional hover effects if needed */
+.section-3-link:hover .section-3-link-content {
+    color: var(--body-color);
+}
 
  /* Footer Styles */
 .site-footer {
