@@ -181,7 +181,7 @@ b, strong {
 	align-items: flex-start;
 }
 .slide-1-image .elementor-widget-container img {
-   height: 113vh;
+   height: 110vh;
    width: auto;
 }
 .slide-1-title h2 {
@@ -212,6 +212,8 @@ b, strong {
 .elementor div.slide-2 {
 	background-color: var(--primary-color);
 	padding: 0;
+	height: 97vh;
+	box-sizing: border-box;
  }
  .elementor .slide-2 .e-con-inner {
 	font-family: "Poppins", sans-serif !important;
@@ -264,6 +266,7 @@ b, strong {
  /*Homepage - Section 3 (Links)*/
  .section-3 {
 	background-color: var(--light-blue);
+	height: 100%;
  }
  .section-3 .e-con-inner {
 	max-width: 100% !important;
